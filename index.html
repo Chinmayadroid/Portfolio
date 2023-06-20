@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website - Chinmaya Uniyal</title>
+    <link
+      rel="icon"
+      href=""dev.png""
+      type="image/x-icon"
+    />
+    <script
+      src="https://kit.fontawesome.com/56cec3d5b3.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="wrapper">
+      <div class="container">
+        <div class="navbar">
+          <div class="logo-container">
+            <img src="dev.png" class="logo"/>
+            <div class="logo-text">Chinmaya</div>
+          </div>
+
+          <div class="nav-items">
+            <div><a href="#projects">Projects</a></div>
+            <div><a href="#skills">Skills</a></div>
+            <div><a href="#contactme">Contact Me</a></div>
+          </div>
+          <div class="bar-icon"><i class="fa-solid fa-bars"></i></div>
+        </div>
+
+        <div class="hero-section">
+          <div class="faded-text">Chinmaya Uniyal</div>
+
+          <div class="hero-section-left">
+            <div class="hero-section-heading">Hi! I'm Chinmaya Uniyal</div>
+
+            <div class="hero-section-heading hero-section-sub-heading">
+              I am a <span class="role"></span>
+            </div>
+
+            <div class="hero-section-description">
+              I’m a software developer and here is my portfolio website. I'm a ML Enthusiast and have
+              basic knowledge of java , python , data structures and web development. I
+            </div>
+
+            <div class="btn-pink" id="btn">
+              <a href="https://www.linkedin.com/in/chinmaya-uniyal-srm//"
+                >Hire Me</a
+              >
+            </div>
+          </div>
+
+          <div class="hero-section-right">
+            <div class="absolute icons icon-cube">
+              <img src="cube.png" alt="" class="cube"/>
+            </div>
+            <div class="absolute icons icon-plus">
+              <img src="plus.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-section" id="projects">
+        <h2 class="page-header">Projects</h2>
+
+        <div class="project-container">
+          <div class="project-card" id="project1">
+            <div class="project-number project-number-right">01</div>
+            <div class="project-content project-content-left">
+              <div class="project-skills-container">
+                <img
+                  class="project-skill"
+                  src="assistant.png"
+                  alt=""
+                />
+                
+              </div>
+
+              <h2 class="project-heading">Personal Assistant</h2>
+
+              <p class="project-subHeading">
+                This is a personal assistant which can perform actions based 
+                on user's voice commands.
+              
+              </p>
+              <div class="btn-grp">
+                <button class="btn-pink btn-project">
+                  <a
+                    href="https://github.com/Chinmayadroid/Digitaro"
+                    >Read More</a
+                  >
+                </button>
+                <a href="https://github.com/Chinmayadroid/Digitaro">
+                  <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                </a>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          
+
+      <div id="skills" class="container skills-container">
+        <div class="skill-fade-text">Skills</div>
+
+        <div class="skill-container-left">
+          <h2 class="skill-heading">
+            <span class="caps">M</span>e and
+            <br />
+            MyTech Stack
+          </h2>
+
+          <div class="skill-subHeading">
+            <p>
+              Welcome to my webpage! I am a B.Tech CSE graduate with a specialization in AI/ML,
+               complemented by beginner-level expertise in data structures, database management systems,
+               and web development. I possess proficiency in Python, Java, CSS, JavaScript, HTML, and other
+               related technologies. As a detail-oriented professional, I am passionate about problem-solving 
+               and consistently update my skills to remain up-to-date with the latest advancements.
+            </p>
+            <p>
+              My primary objective is to apply my knowledge and skills to contribute to innovative AI
+              and ML projects. I am dedicated to leveraging the power of artificial intelligence and
+              machine learning to tackle complex challenges and drive meaningful solutions. Your visit
+              to my webpage is greatly appreciated.
+
+              Thank you for taking the time to explore my profile!
+            </p>
+          </div>
+        </div>
+
+        <div class="skill-container-right">
+          <img
+            src="skills.png"
+            class="blob-style"
+            alt=""
+          />
+
+          <img src="html.png" alt="" class="skills-logo" />
+          <img src="css.png" alt="" class="skills-logo" />
+          <img src="javascript.png" alt="" class="skills-logo" />
+          <img src="python.png" alt="" class="skills-logo" />
+          <img src="java.png" alt="" class="skills-logo" />
+          <img src="mysql.png" alt="" class="skills-logo" />
+        </div>
+      </div>
+
+      <div class="contactus-form-container" id="contactme">
+        <div class="container">
+          <h1 class="contactus-heading">Contact me</h1>
+
+          <h3 class="contactus-sub-heading">
+            Questions, thoughts, or just want to say hello?
+          </h3>
+
+          <div class="contactus-form-container">
+            <form class="form" action="">
+              <div class="formfield-container">
+                <input
+                  class="formfield"
+                  type="text"
+                  name="name"
+                  id=""
+                  placeholder="Enter your name"
+                />
+
+                <input
+                  class="formfield"
+                  type="email"
+                  name="email"
+                  id=""
+                  placeholder="Enter your email address"
+                />
+
+                <input
+                  class="formfield"
+                  type="text"
+                  name="subject"
+                  id=""
+                  placeholder="Enter your subject"
+                />
+
+                <textarea
+                  name="message"
+                  id=""
+                  cols="30"
+                  rows="10"
+                  class="formfield formfield-textarea"
+                  placeholder="Enter your message"
+                ></textarea>
+              </div>
+
+              <div>
+                <button type="submit" class="btn-pink" id="submit-btn">
+                  Send Message<i
+                    class="submit-icon fa-solid fa-paper-plane"
+                  ></i>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="container">
+          <div class="footer-wrapper">
+            <div class="footer-faded-text">Chinmaya Uniyal</div>
+
+            <div class="link-wrapper">
+              <div>
+                <a href="#projects">Projects</a>
+              </div>
+              <div>
+                <a href="#skills">Skills</a>
+              </div>
+              <div>
+                <a href="#contactme">Contact Me</a>
+              </div>
+            </div>
+
+            <div class="icon-wrapper">
+              <a href="https://www.linkedin.com/in/chinmaya-uniyal-srm/"
+                ><i class="fa-brands fa-linkedin icon"></i
+              ></a>
+              <a href="https://github.com/Chinmayadroid"
+                ><i class="fa-brands fa-github icon"></i
+              ></a>
+              <a href="mailto:chinmayauniyal@.com"
+                ><i class="fa-regular fa-envelope icon"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script
+      src="https://kit.fontawesome.com/58a810656e.js"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      var typeData = new Typed(".role", {
+        strings: [
+          "Full Stack Developer",
+          "Web Developer",
+          "App Developer",
+          "UI-UX Designer",
+          "Backend Developer",
+          "Coder",
+          "Firebase User",
+        ],
+        loop: true,
+        typeSpeed: 100,
+        backSpeed: 80,
+        backDelay: 1000,
+      });
+    </script>
+  </body>
+</html>
